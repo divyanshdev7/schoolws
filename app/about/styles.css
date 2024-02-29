@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+	.tab{
+		@apply xs:snap-start hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 cursor-pointer;
+	}
+}
