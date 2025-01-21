@@ -1,5 +1,5 @@
 // HomePage / Landing Page
-
+import ComingSoon from "./comingSoon";
 import Hero from "@components/header/hero";
 import Carousal from "@components/main/Carousal";
 import Banner from "@components/main/BannerNews";
@@ -14,16 +14,17 @@ import Faqs from "@components/main/Faqs";
 export default function Home() {
 	return (
 		<div>
-			<Hero />
-			<Carousal />
+			<ComingSoon />
+			{/* <Hero />
+			<Carousal /> */}
 			{/* <Banner /> */}
-			<Discover />
+			{/* <Discover />
 			<AboutUs />
 			<GradeLevels />
 			<Enroll />
 			<BeyondAcademics />
 			<Testimonials />
-			<Faqs />
+			<Faqs /> */}
 		</div>
 	);
 }

@@ -18,10 +18,10 @@ export default function MyApp({ children }: { children: React.ReactNode }) {
 			<html lang="en" className="scroll-smooth">
 				<PrelineScript />
 				<body suppressHydrationWarning={true}>
-					<DynamicNavbar />
+					{/* <DynamicNavbar /> */}
 					<main>{children}</main>
-					<DynamicFooter />
-					<DynamicBackToTopButton />
+					{/* <DynamicFooter /> */}
+					{/* <DynamicBackToTopButton /> */}
 					<Analytics />
 				</body>
 			</html>
