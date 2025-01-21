@@ -60,74 +60,53 @@ const MessageDesk = () => {
 							</figure>
 							<TabContent title="Director's Message">
 								<p className="text-lg sm:text-xl text-gray-800 dark:text-gray-200 leading-loose sm:leading-loose sm:tracking-wide">
-									Dear Students, Parents, Guardians, and Beloved Members of the
-									Talent Vision School Family,
+									Dear Students, Parents, Guardians, and the entire Talent
+									Vision School Family,
 									<br />
-									As the founder of Talent Vision School, I extend my warmest
-									greetings to all of you. It brings me immense joy to share my
-									thoughts and emotions about this incredible journey we&apos;ve
-									undertaken together. Talent Vision School isn&apos;t just an
-									institution; it&apos;s a labor of love, a lifelong teacher,
-									and a testament to our shared commitment to nurturing young
-									minds.
+									As I sit down to write this message, I'm filled with a sense
+									of pride, joy, and gratitude. Our school's journey has been
+									nothing short of incredible, and I'm honored to have shared it
+									with all of you.
 									<br />
 									<br />
-									When I embarked on this journey, my dream was to create an
-									educational environment that not only imparts knowledge but
-									also shapes character. Our website, which you&apos;re
-									exploring today, is a window into the world we&apos;ve built—a
-									world where education thrives and where students are
-									encouraged to strive for excellence.
+									Talent Vision School is more than just an institution – it's a
+									community, a family, and a haven where young minds can grow,
+									explore, and thrive. When I founded this school, my dream was
+									to create a space where education would be a holistic
+									experience, shaping not just minds, but also hearts.
 									<br />
 									<br />
-									The online platform is just one facet of our commitment to
-									providing an enriching educational environment. In
-									today&apos;s digital age, the website serves as a vital link
-									between the school, parents, and students, facilitating
-									communication and sharing valuable resources. It&apos;s more
-									than just a virtual space; it&apos;s a gateway to the
-									educational opportunities and experiences we offer.
+									As you explore our website, I hope you'll catch a glimpse of
+									the vibrant community we've built. Our online platform is
+									designed to be a window into our world, a space where we can
+									share our stories, celebrate our achievements, and connect
+									with one another.
 									<br />
 									<br />
-									Talent Vision School is not merely a place of learning;
-									it&apos;s an environment where lifelong friendships are
-									formed, where students discover their passions, and where
-									values like empathy, integrity, and respect are woven into the
-									very fabric of our community. Our goal is to create an
-									inclusive and supportive space where every student feels
-									encouraged to be their authentic selves.
+									But Talent Vision School is more than just a physical or
+									virtual space – it's a philosophy, a way of life. We believe
+									in nurturing curiosity, creativity, and critical thinking. We
+									believe in empowering our students to be compassionate,
+									empathetic, and courageous individuals who can make a positive
+									impact in the world.
 									<br />
 									<br />
-									Our commitment to innovation is reflected in our approach to
-									teaching and learning. We understand that education isn&apos;t
-									static; it&apos;s a dynamic journey. That&apos;s why we strive
-									to create an environment where curiosity is celebrated,
-									questions are encouraged, and creativity knows no bounds. Our
-									curriculum is designed to nurture critical thinking and
-									problem-solving skills, empowering students to face the
-									challenges of an ever-changing world.
+									Our faculty and staff are the backbone of our school, and I'm
+									deeply grateful for their tireless efforts, their passion, and
+									their commitment to excellence. They're not just educators –
+									they're mentors, guides, and role models who inspire and
+									support our students every step of the way.
 									<br />
 									<br />
-									As the founder of Talent Vision School, I take immense pride
-									in our dedicated faculty and staff. They are not just
-									educators; they are mentors, guides, and role models who
-									inspire and guide our students. Our administrative team is
-									here to support you, and our teachers are here to guide your
-									children on their educational journey.
+									As we continue on this journey together, I invite you to
+									explore our website, to learn more about our programs and
+									initiatives, and to experience firsthand the warmth and
+									inclusivity of our community.
 									<br />
 									<br />
-									In closing, I invite you to explore our website further, to
-									delve into the diverse programs and opportunities we offer,
-									and to witness firsthand the nurturing environment we&apos;ve
-									cultivated. Talent Vision School is a testament to our shared
-									vision of providing an exceptional education—one that shapes
-									not only minds but also hearts.
-									<br />
-									<br />
-									Thank you for entrusting us with the education of your
-									children. Together, as a united family, we will continue to
-									inspire, innovate, and create an environment where every
-									student can thrive, learn, and grow.
+									Thank you for being part of the Talent Vision School family.
+									I'm excited to see what the future holds for us, and I'm
+									deeply grateful for the trust you've placed in us.
 									<br />
 									<br />
 								</p>

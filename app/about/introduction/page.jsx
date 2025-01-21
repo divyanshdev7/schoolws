@@ -1,6 +1,6 @@
 
 import Content from "../components/PageContent";
-import logo from "@public/images/logo.png";
+import logo from "@public/images/sLogo.png";
 
 const Introduction = () => {
 	return (
