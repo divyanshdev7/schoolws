@@ -1,101 +1,151 @@
 // Component: Carousal
 import Image from "next/image";
 import girl from "@public/images/girl.jpg";
-const Carousal = () => {
+import gate1 from "@public/images/gate1.jpg";
+import gate2 from "@public/images/gate2.jpg";
+
+const Carousel = () => {
 	return (
-		<>
-			{/* Slider */}
+		<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			{/* Main carousel container */}
 			<div
 				data-hs-carousel='{
-    "loadingClasses": "opacity-0",
-    "isAutoPlay": true
-  }'
+          "loadingClasses": "opacity-0",
+          "isAutoPlay": true,
+          "interval": 5000
+        }'
 				className="relative"
 			>
-				<div className="hs-carousel relative overflow-hidden w-full min-h-[350px] bg-white rounded-lg">
+				{/* Carousel viewport */}
+				<div className="hs-carousel relative overflow-hidden w-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-[600px] rounded-xl">
+					{/* Slides container */}
 					<div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
-						<div className="hs-carousel-slide">
-							<div className="flex justify-center h-full bg-gray-100 p-6">
-								<span className="self-center text-4xl transition duration-700">
-									{/* <Image
-										src={girl}
-										alt="girl image"
-										className="object-cover w-full h-full"
-									/> */}
-									First Slide
-								</span>
+						{/* Slide 1 */}
+						<div className="hs-carousel-slide relative w-full flex-shrink-0">
+							<div className="relative w-full h-full">
+								<Image
+									src={girl}
+									alt="Slide 1"
+									fill
+									priority
+									sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+									className="object-cover object-center"
+								/>
+								<div className="absolute inset-0 bg-black/20" />
+								<div className="absolute bottom-8 left-8 text-white">
+									<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+										First Slide
+									</h2>
+									<p className="mt-2 text-sm sm:text-base md:text-lg">
+										Description text here
+									</p>
+								</div>
 							</div>
 						</div>
-						<div className="hs-carousel-slide">
-							<div className="flex justify-center h-full bg-gray-200 p-6">
-								<span className="self-center text-4xl transition duration-700">
-									Second slide
-								</span>
+						{/* Slide 2 */}
+						<div className="hs-carousel-slide relative w-full flex-shrink-0">
+							<div className="relative w-full h-full">
+								<Image
+									src={gate1}
+									alt="Slide 2"
+									fill
+									priority
+									sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+									className="object-cover object-center"
+								/>
+								<div className="absolute inset-0 bg-black/20" />
+								<div className="absolute bottom-8 left-8 text-white">
+									<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+										Second Slide
+									</h2>
+									<p className="mt-2 text-sm sm:text-base md:text-lg">
+										Description text here
+									</p>
+								</div>
 							</div>
 						</div>
-						<div className="hs-carousel-slide">
-							<div className="flex justify-center h-full bg-gray-300 p-6">
-								<span className="self-center text-4xl transition duration-700">
-									Third slide
-								</span>
+						{/* Slide 3 */}
+						<div className="hs-carousel-slide relative w-full flex-shrink-0">
+							<div className="relative w-full h-full">
+								<Image
+									src={gate2}
+									alt="Slide 3"
+									fill
+									priority
+									sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+									className="object-cover object-center"
+								/>
+								<div className="absolute inset-0 bg-black/20" />
+								<div className="absolute bottom-8 left-8 text-white">
+									<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+										Third Slide
+									</h2>
+									<p className="mt-2 text-sm sm:text-base md:text-lg">
+										Description text here
+									</p>
+								</div>
 							</div>
 						</div>
+
+						{/* Similar structure for other slides */}
 					</div>
 				</div>
+
+				{/* Navigation buttons */}
 				<button
 					type="button"
-					className="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/[.1]"
+					className="hs-carousel-prev absolute inset-y-0 start-0 inline-flex items-center justify-center w-12 h-full text-white hover:bg-black/30 transition duration-300"
+					aria-label="Previous slide"
 				>
-					<span className="text-2xl" aria-hidden="true">
-						<svg
-							className="w-4 h-4"
-							xmlns="http://www.w3.org/2000/svg"
-							width={16}
-							height={16}
-							fill="currentColor"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fillRule="evenodd"
-								d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-							/>
-						</svg>
-					</span>
-					<span className="sr-only">Previous</span>
+					<svg
+						className="w-6 h-6"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							d="M15 19l-7-7 7-7"
+						/>
+					</svg>
 				</button>
+
 				<button
 					type="button"
-					className="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/[.1]"
+					className="hs-carousel-next absolute inset-y-0 end-0 inline-flex items-center justify-center w-12 h-full text-white hover:bg-black/30 transition duration-300"
+					aria-label="Next slide"
 				>
-					<span className="sr-only">Next</span>
-					<span className="text-2xl" aria-hidden="true">
-						<svg
-							className="w-4 h-4"
-							xmlns="http://www.w3.org/2000/svg"
-							width={16}
-							height={16}
-							fill="currentColor"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fillRule="evenodd"
-								d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-							/>
-						</svg>
-					</span>
+					<svg
+						className="w-6 h-6"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							d="M9 5l7 7-7 7"
+						/>
+					</svg>
 				</button>
-				<div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
-					<span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer" />
-					<span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer" />
-					<span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 w-3 h-3 border border-gray-400 rounded-full cursor-pointer" />
+
+				{/* Pagination dots */}
+				<div className="absolute bottom-4 start-0 end-0">
+					<div className="flex items-center justify-center gap-2">
+						<span className="w-2.5 h-2.5 rounded-full bg-white/50 hs-carousel-active:bg-white transition-all duration-300" />
+						<span className="w-2.5 h-2.5 rounded-full bg-white/50 hs-carousel-active:bg-white transition-all duration-300" />
+						<span className="w-2.5 h-2.5 rounded-full bg-white/50 hs-carousel-active:bg-white transition-all duration-300" />
+					</div>
 				</div>
 			</div>
-			{/* End Slider */}
-		</>
+		</div>
 	);
 };
 
-export default Carousal;
+export default Carousel;
 // <>
 // 	{/* Features */}
 // 	<div className="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">

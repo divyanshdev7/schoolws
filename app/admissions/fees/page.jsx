@@ -6,7 +6,7 @@ import "/app/about/styles.css";
 
 const FeeStructure = () => {
 	return (
-		<Content heroTitle="Fee Structure 2023-24">
+		<Content heroTitle="Fee Structure">
 			<div className="space-y-6 md:space-y-8">
 				<h2 className="text-2xl font-bold md:text-3xl py-3 text-center ">
 					Introduction to Fee Structure

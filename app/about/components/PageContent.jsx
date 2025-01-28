@@ -5,7 +5,7 @@ const Content = (props) => {
 			{/* Hero*/}
 			<div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-2 space-y-2 mt-14">
 				<div className="max-w-6xl text-center mx-auto">
-					<h1 className="font-medium text-7xl sm:text-8xl md:text-8xl lg:text-8xl tracking-tighter">
+					<h1 className="font-medium text-7xl sm:text-9xl tracking-tighter">
 						{props.heroTitle}
 					</h1>
 				</div>
