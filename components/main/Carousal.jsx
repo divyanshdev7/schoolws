@@ -1,8 +1,8 @@
 // Component: Carousal
 import Image from "next/image";
 import girl from "@public/images/girl.jpg";
-import gate1 from "@public/images/gate1.jpg";
-import gate2 from "@public/images/gate2.jpg";
+import gate1 from "@public/images/gate1.JPG";
+import gate2 from "@public/images/gate2.JPG";
 
 const Carousel = () => {
 	return (
