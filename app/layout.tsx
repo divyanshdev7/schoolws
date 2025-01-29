@@ -3,6 +3,7 @@ import "@styles/globals.css";
 import PrelineScript from "./components/PrelineScript";
 import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useEffect } from "react";
 
 // Dynamically import Navbar and Footer components
@@ -23,6 +24,7 @@ export default function MyApp({ children }: { children: React.ReactNode }) {
 					{/* <DynamicFooter /> */}
 					{/* <DynamicBackToTopButton /> */}
 					<Analytics />
+					<SpeedInsights />
 				</body>
 			</html>
 		</>

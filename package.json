@@ -3,6 +3,7 @@
 		"@preline/carousel": "^2.0.2",
 		"@preline/dropdown": "^2.0.2",
 		"@vercel/analytics": "^1.1.2",
+		"@vercel/speed-insights": "^1.1.0",
 		"autoprefixer": "^10.4.17",
 		"embla-carousel-autoplay": "^8.5.2",
 		"embla-carousel-react": "^8.5.2",
