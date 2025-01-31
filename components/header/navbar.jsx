@@ -66,7 +66,7 @@ const Navbar = () => {
 				</div>
 			</div>
 			{/* End School Heading Banner -----------------------------------------------------------------------------*/}
-			<header className="sticky top-0 z-[9999] flex flex-wrap sm:justify-start sm:flex-nowrap w-full py-3 sm:py-3 border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 bg-zinc-950 md:bg-white">
+			<header className="sticky top-0 z-[9999] flex flex-wrap sm:justify-start sm:flex-nowrap w-full py-3 sm:py-3 dark:bg-gray-800 dark:border-gray-700 bg-zinc-950 md:bg-white">
 				<nav
 					className="border-red max-w-7xl flex flex-wrap items-center justify-between w-full mx-auto px-3 md:flex md:items-center md:justify-center md:px-6 lg:px-8"
 					aria-label="Global"

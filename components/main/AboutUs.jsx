@@ -1,12 +1,11 @@
-
 import Link from "next/link";
 const AboutUs = () => {
 	return (
 		<div>
 			<section className="border-b-2 rounded-b-3xl">
-				<div className="mx-auto max-w-screen-lg px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+				<div className="mx-auto max-w-screen-lg px-6 mt-24 sm:px-6 lg:px-10">
 					<div className="max-w-3xl dark:bg-black">
-						<h1 className="tracking-tighter text-6xl p-3 text-gray-900 sm:text-8xl dark:text-white">
+						<h1 className="tracking-tighter font-semibold text-7xl text-blue-900 sm:text-8xl px-3">
 							About us
 						</h1>
 					</div>
@@ -34,12 +33,14 @@ const AboutUs = () => {
 								<br /> We invite you to explore our world of knowledge, growth,
 								and opportunities. Join us in the pursuit of excellence.
 							</article>
-							<Link
-								href="/about/introduction"
-								className="mt-8 inline-block rounded border border-orange-600 bg-orange-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-							>
-								Learn More
-							</Link>
+							<div className="px-3 mb-2 text-center sm:text-right text-white">
+								<Link
+									href="/about/introduction"
+									className="mt-8 inline-block rounded-3xl bg-gray-800 hover:bg-blue-900 px-7 py-2 text-sm font-medium text-white transition-all duration-300 ease-in-out shadow-md hover:shadow-lg hover:-translate-y-0.5 border-none focus:outline-none focus:ring-2 focus:ring-blue-400"
+								>
+									Learn More
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>

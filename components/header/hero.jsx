@@ -1,14 +1,16 @@
-
 export const Hero = () => {
 	return (
-		<div>
-			{/* hero Section */}
-			<section className="overflow-hidden bg-gray-50 sm:gridz">
-				<div className="p-8 md:p-12 lg:px-16 lg:py-24">
-					<div className="text-5xl mx-auto text-center sm:max-w-5xl md:max-w-none">
-						<h2 className="md:text-9xl tracking-tighter font-medium">Igniting the</h2>
-
-						<p className="md:mt-4 md:block md:text-7xl tracking-tighter font-medium">
+		<div className="">
+			<section className="overflow-hidden bg-gray-50 h-[24rem] flex items-center justify-center">
+				<div className="p-4 md:p-12 lg:px-16 lg:py-24 w-full">
+					<div className="mx-auto text-center">
+						<h2 className="text-7xl sm:text-8xl md:text-9xl tracking-tighter font-medium">
+							Igniting the
+						</h2>
+						<p
+							className="text-5xl sm:text-6xl md:text-7xl tracking-tighter font-medium mt-2 pb-4
+  bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-transparent bg-clip-text"
+						>
 							Spark of Learning!
 						</p>
 					</div>

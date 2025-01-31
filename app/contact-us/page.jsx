@@ -24,7 +24,7 @@ const ContactUs = () => {
 					<div className="flex justify-center gap-6">
 						{/* Facebook  */}
 						<div className="text-center group">
-							<Link href="#">
+							<Link href="https://www.facebook.com/tvjhs">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									x="0px"
