@@ -133,7 +133,7 @@ const Navbar = () => {
 								Home
 							</Link>
 
-							{/* About , Admissions, Academics, Online  */}
+							{/* About , Admissions, Academics, Gallery, Online  */}
 							{menuItems.map((menuItem, index) => (
 								<Navlist
 									key={index}
@@ -144,7 +144,7 @@ const Navbar = () => {
 								/>
 							))}
 
-							{/* Gallery  */}
+							{/* Gallery 
 							<Link
 								className="navLink font-medium text-gray-900 hover:text-red-600 px-6 sm:py-3 md:py-0 sm:px-0 dark:text-blue-500 hover-ul-animation"
 								href="/gallery"
@@ -156,7 +156,7 @@ const Navbar = () => {
 								// onClick={handleLinkClick}
 							>
 								Gallery
-							</Link>
+							</Link> */}
 
 							{/* Contact */}
 							<Link

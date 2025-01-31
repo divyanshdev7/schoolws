@@ -1,12 +1,11 @@
 import Content from "../components/PageContent";
-import ContentTabs from "../components/PageContentTabs";
 
 const Mission = () => {
 	return (
 		<section>
 			{/* Hero  */}
 			<div className="max-w-full mx-auto px-1 sm:px-6 lg:px-8 py-2 space-y-2 mt-14">
-				<ContentTabs heroTitle="Our Mission">
+				<Content heroTitle="Our Mission">
 					<>
 						{/* Approach */}
 						<div className="bg-neutral-900 rounded-2xl">
@@ -186,7 +185,7 @@ const Mission = () => {
 						</div>
 						{/* End Approach */}
 					</>
-				</ContentTabs>
+				</Content>
 			</div>
 		</section>
 	);

@@ -27,6 +27,15 @@ const menuItems = [
 		],
 	},
 	{
+		navTitle: "Gallery",
+		items: [
+			{ label: "Events", url: "/gallery/school-events"},
+			{ label: "Glimpse of the Past", url: "/gallery/school-past" },
+			{ label: "Infrastructure", url: "/gallery/school-infra" },
+			{ label: "School Uniform", url: "/gallery/school-uniform" },
+		],
+	},
+	{
 		navTitle: "Online",
 		items: [
 			{ label: "Latest Events", url: "/online/latest-event" },
